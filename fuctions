@@ -1,0 +1,25 @@
+#include <cstdlib>
+#include <iostream>
+
+using namespace std;
+//functions math \
+//sum es la variable global
+//declaring function
+int sum(int x, int y);
+
+int main(int argc, char *argv[])
+{
+//la declaracion de variable
+    int a=10;
+    int b=20;
+    int c =sum(a,b);
+    cout <<c;
+    
+    system("PAUSE");
+    return EXIT_SUCCESS;
+}
+//defining function
+int sum(int x , int y)
+{
+    return(x+y);
+}
